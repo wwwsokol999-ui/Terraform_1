@@ -1,0 +1,12 @@
+# Local Terraform files
+**/.terraform/*
+.terraform*
+
+!.terraformrc
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Secret variables
+personal.auto.tfvars
